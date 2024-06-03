@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body >
     <header>
             <nav class="bg-gray-800">
                 <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -56,10 +56,69 @@
                 </div>
             </nav>
     </header>
-    <main>
+    <div class="grid grid-cols-12">
+        <aside class="col-span-2 h-screen bg-gray-600 text-white">
+            <h1 class=" text-center text-2xl py-10">Category</h1>
+            <div class="px-6 leading-9">
+                <a href=""><h1>Appetizers</h1></a>
+                    <a href=""><li class="pl-4">Stuffed mushrooms</li></a>
+                    <a href=""><li class="pl-4">Best deviled eggs</li></a>
+                    <a href=""><li class="pl-4">Asparagus wraps</li></a>
+                    <a href=""><li class="pl-4">Avocado dip</li></a>
+                <a href=""><h1>Main courses</h1></a>
+                    <a href=""><li class="pl-4">Casseroles</li></a>
+                    <a href=""><li class="pl-4">Honey Sriracha chicken</li></a>
+                    <a href=""><li class="pl-4">Beef enchiladas</li></a>
+                    <a href=""><li class="pl-4">Avocado dip</li></a>
+                <a href=""><h1>Desserts</h1></a>
+                    <a href=""><li class="pl-4">Tiramisu recipe</li></a>
+                    <a href=""><li class="pl-4">Chocolate mousse</li></a>
+                    <a href=""><li class="pl-4">Angel food cake</li></a>
+                    <a href=""><li class="pl-4">'Not so fried' ice-cream</li></a>
+                <a href=""><h1>Beverages</h1></a>
+                    <a href=""><li class="pl-4">Casseroles</li></a>
+                    <a href=""><li class="pl-4">Honey Sriracha chicken</li></a>
+                    <a href=""><li class="pl-4">Beef enchiladas</li></a>
+                    <a href=""><li class="pl-4">Avocado dip</li></a>
+            </div>
+        </aside>
+        <main class="col-span-10">
+            <div>
+                <div class="relative mt-5 px-6 rounded-md shadow-sm flex items-center">
+                  <input type="text" name="search" id="search" class="relative w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 sm:text-sm sm:leading-10" placeholder="Serch your craving"> 
+                  <button class="btn bg-gray-600 text-white absolute right-0 mr-7 w-36 font-semibold ">Search</button>
+                </div>
+            </div>
+            <div class="py-10 px-6">
+                <h1 class="pb-3 text-2xl font-bold">Appetizers</h1>
+                <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                    <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">
+                        Stuffed mushrooms
+                        <div class="badge badge-secondary">NEW</div>
+                      </h2>
+                      <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                      <p>3.66$</p>
+                      <div class="card-actions justify-end">
+                        <div class="badge badge-outline">Appetizers</div> 
+                        <div class="badge badge-outline">Mashroom</div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>Main courses</h1>
+            </div>
+            <div>
+                <h1>Desserts</h1>
 
-        
-    </main>
+            </div>
+            <div>
+                <h1>Beverages</h1>
+            </div>
+        </main>
+    </div>
     <footer class="grid bg-gray-700 w-full lg:h-96 h-full">
         <div class="w-4/5 mx-auto lg:grid grid-cols-12 gap-16 lg:flex justify-center items-center">
             <div class="col-span-4 text-white">
