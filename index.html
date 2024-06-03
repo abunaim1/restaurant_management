@@ -1,27 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="emerald">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>KhanaPina</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/3b65cadd71.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header>
-        <nav>
-
-        </nav>
+            <nav class="bg-gray-800">
+                <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                  <div class="relative flex h-16 items-center justify-between">
+                    <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                      <!-- Mobile menu button-->
+                      <button id="mobile-menu-button" type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="absolute -inset-0.5"></span>
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                        <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      </button>
+                    </div>
+                    <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                      <div class="flex flex-shrink-0 items-center">
+                        <h1 class="text-white border px-3 py-2 rounded-sm font-serif">KhanaPina </h1>
+                      </div>
+                    </div>
+                    <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                        <div class="hidden sm:ml-6 sm:block">
+                            <div class="flex space-x-4">
+                              <a href="index.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Home</a>
+                              <a href="menu.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Menu</a>
+                              <a href="reservation.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Reservation</a>
+                              <a href="contact.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Mobile menu, show/hide based on menu state. -->
+                <div id="mobile-menu" class="sm:hidden" id="mobile-menu">
+                  <div class="space-y-1 px-2 pb-3 pt-2">
+                    <a href="index.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Home</a>
+                    <a href="menu.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Menu</a>
+                    <a href="reservation.html"class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Reservation</a>
+                    <a href="contact.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact</a>
+                  </div>
+                </div>
+            </nav>
     </header>
     <main>
         <section class="banner">
-
+            <div class="banner-image"></div>
+            <div class="banner-text text-white font-semibold lowercase">
+                <h1 class="text-6xl">It's the food and groceries you love, <span class="content-heading text-red-300 text-7xl">delivered</span></h1>
+            </div>
         </section>
-        <section class="content">
-
+        <section class="w-4/5 mx-auto content my-20">
+            <div class="aboutUs">
+                <h1 class="text-center text-6xl content-heading">About KhanaPina</h1>
+                <p class=" my-5">Order food online the easy way with KhanaPina. Whether you're too tired to cook, craving fast food favourites or looking to try something new, it's never been easier to order in takeaway in Dhaka. Never used KhanaPina before? Simply head to the website or launch the app and enter your location to bring up a list of restaurants delivering to your area. Once you find something that stirs your appetite, click to open the restaurant menu. Simply tap to add desired items to your basket, before heading to the checkout to pay once you've everything you need. Once you've done that, all you need to do is relax and await your delivery.</p>
+            </div>
+            <div class="grid grid-cols-4 gap-10">
+                <div class="card bg-base-100 shadow-xl image-full">
+                    <figure><img class="" src="./assets/cart1.jpg" alt="Shoes" /></figure>
+                    <div class="card-body leading-8">
+                      <h2 class="card-title text-2xl">Latin Pizza</h2>
+                      <p>Pizza and its variants are among the most popular foods in the world. Pizza is sold at a variety of restaurants, including pizzerias (pizza specialty restaurants), Mediterranean restaurants, via delivery, and as street food</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary text-white border-0" style="background-color: rgb(119 43 8);">Buy Now</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl image-full">
+                    <figure><img class="" src="./assets/card2.jpg" alt="Shoes" /></figure>
+                    <div class="card-body leading-8">
+                      <h2 class="card-title">American Pizza</h2>
+                      <p>Pizza and its variants are among the most popular foods in the world. Pizza is sold at a variety of restaurants, including pizzerias (pizza specialty restaurants), Mediterranean restaurants, via delivery, and as street food</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary text-white border-0" style="background-color: rgb(119 43 8);">Buy Now</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl image-full">
+                    <figure><img class="" src="./assets/card4.jpg" alt="Shoes" /></figure>
+                    <div class="card-body leading-8">
+                      <h2 class="card-title">American Pizza</h2>
+                      <p>Pizza and its variants are among the most popular foods in the world. Pizza is sold at a variety of restaurants, including pizzerias (pizza specialty restaurants), Mediterranean restaurants, via delivery, and as street food</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary text-white border-0" style="background-color: rgb(119 43 8);">Buy Now</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl image-full">
+                    <figure><img class="" src="./assets/card3.jpg" alt="Shoes" /></figure>
+                    <div class="card-body leading-8">
+                      <h2 class="card-title">Hamburger</h2>
+                      <p>Pizza and its variants are among the most popular foods in the world. Pizza is sold at a variety of restaurants, including pizzerias (pizza specialty restaurants), Mediterranean restaurants, via delivery, and as street food</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary text-white border-0" style="background-color: rgb(119 43 8);">Buy Now</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl image-full">
+                    <figure><img class="" src="./assets/card4.jpg" alt="Shoes" /></figure>
+                    <div class="card-body leading-8">
+                      <h2 class="card-title">Tasty Salt Burger</h2>
+                      <p>Pizza and its variants are among the most popular foods in the world. Pizza is sold at a variety of restaurants, including pizzerias (pizza specialty restaurants), Mediterranean restaurants, via delivery, and as street food</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary text-white border-0" style="background-color: rgb(119 43 8);">Buy Now</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl image-full">
+                    <figure><img class="" src="./assets/cart1.jpg" alt="Shoes" /></figure>
+                    <div class="card-body leading-8">
+                      <h2 class="card-title">HedApizza</h2>
+                      <p>Pizza and its variants are among the most popular foods in the world. Pizza is sold at a variety of restaurants, including pizzerias (pizza specialty restaurants), Mediterranean restaurants, via delivery, and as street food</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary text-white border-0" style="background-color: rgb(119 43 8);">Buy Now</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="grid bg-gray-700 w-full lg:h-96 h-full">
+        <div class="w-4/5 mx-auto lg:grid grid-cols-12 gap-16 lg:flex justify-center items-center">
+            <div class="col-span-4 text-white">
+                <h1 class="text-white py-2 font-serif"> KhanaPina <i class="fa-solid fa-pizza-slice"></i></h1>
+                <h1>Making the world a better place through constructing elegant hierarchies.</h1>
+                <div class="social-media-links flex gap-10 my-5 text-2xl">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-span-2 text-white leading-10">
+                <h1 class="font-semibold">Solutions</h1>
+                <p class="font-extralight">KhanaPina Deals</p>
+                <p class="font-extralight">Grocery delivery</p>
+                <p class="font-extralight">pandago for customers</p>
+                <p class="font-extralight">pandago for business</p>
+            </div>
+            <div class="col-span-2 text-white leading-10">
+                <h1 class="font-semibold">Support</h1>
+                <p class="font-extralight">Pricing</p>
+                <p class="font-extralight">Careers</p>
+                <p class="font-extralight">Corporate Customer</p>
+                <p class="font-extralight">Dine-in</p>
+            </div>
+            <div class="col-span-2 text-white leading-8">
+                <h1 class="font-semibold">Help Center</h1>
+                <p class="font-extralight">Privacy Policy</p>
+                <p class="font-extralight">Refund Account Terms and Conditions</p>
+                <p class="font-extralight">Cashback Program</p>
+                <p class="font-extralight">pandapro Subscription</p>
+            </div>
+            <div class="col-span-2 text-white leading-8">
+                <h1 class="font-semibold">Terms and Conditions</h1>
+                <p class="font-extralight">Security</p>
+                <p class="font-extralight">Partner with Us</p>
+                <p class="font-extralight">How foodpanda Works</p>
+                <p class="font-extralight">Download foodpanda Apps</p>
+            </div>
+        </div>
     </footer>
     <script src="./js/script.js"></script>
 </body>
