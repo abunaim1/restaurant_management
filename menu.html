@@ -57,7 +57,7 @@
             </nav>
     </header>
     <div class="grid grid-cols-12">
-        <aside class="col-span-2 h-screen bg-gray-600 text-white sticky top-0">
+        <aside class="col-span-2 h-screen bg-gray-600 text-white lg:sticky top-0 hidden sm:block">
             <h1 class=" text-center text-2xl py-10">Category</h1>
             <div class="px-6 leading-9">
                 <a href=""><h1>Appetizers</h1></a>
@@ -83,207 +83,209 @@
             </div>
         </aside>
         <main class="col-span-10">
-            <div>
-                <div class="relative mt-5 px-6 rounded-md shadow-sm flex items-center">
-                  <input type="text" name="search" id="search" class="relative w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 sm:text-sm sm:leading-10" placeholder="Serch your craving"> 
-                  <button class="btn bg-gray-600 text-white absolute right-0 mr-7 w-36 font-semibold ">Search</button>
+            <div class="">
+                <div class="relative mt-5 lg:px-6 px-7 leading-10 rounded-md shadow-sm lg:flex items-center">
+                    <input type="text" name="search" id="search" class="relative rounded-md border-0 py-1.5 pl-7 text-gray-900 ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 sm:text-sm sm:leading-10 w-80 lg:w-full mb-3 lg:mb-0" placeholder="Serch your craving"> 
+                    <button class="btn bg-gray-600 text-white lg:absolute right-0 lg:mr-7 lg:w-36 w-80 font-semibold ">Search</button>
                 </div>
-            </div>
-            <div class="py-10 px-6">
-                <h1 class="pb-3 text-2xl font-bold">Appetizers</h1>
-                <div class="flex flex-wrap gap-16 items-center">
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
+                <div class="px-16">
+                    <div class="py-10">
+                        <h1 class="pb-3 text-2xl font-bold">Appetizers</h1>
+                        <div class="flex flex-wrap gap-16 items-center">
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
+                    <div class="py-10">
+                        <h1 class="pb-3 text-2xl font-bold">Main courses</h1>
+                        <div class="flex flex-wrap gap-16 items-center">
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
+                    <div class="py-10">
+                        <h1 class="pb-3 text-2xl font-bold">Desserts</h1>
+                        <div class="flex flex-wrap gap-16 items-center">
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="py-10 px-6">
-                <h1 class="pb-3 text-2xl font-bold">Main courses</h1>
-                <div class="flex flex-wrap gap-16 items-center">
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
+                    <div class="py-10">
+                        <h1 class="pb-3 text-2xl font-bold">Beverages</h1>
+                        <div class="flex flex-wrap gap-16 items-center">
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <d class="py-10 px-6">
-                <h1 class="pb-3 text-2xl font-bold">Desserts</h1>
-                <div class="flex flex-wrap gap-16 items-center">
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </d`iv>
-            <div class="py-10 px-6">
-                <h1 class="pb-3 text-2xl font-bold">Beverages</h1>
-                <div class="flex flex-wrap gap-16 items-center">
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card w-80 bg-base-100 shadow-xl rounded-none">
-                        <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">
-                            Stuffed mushrooms
-                            <div class="badge badge-secondary">NEW</div>
-                            </h2>
-                            <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
-                            <p>3.66$</p>
-                            <div class="card-actions justify-end">
-                            <div class="badge badge-outline">Appetizers</div> 
-                            <div class="badge badge-outline">Mashroom</div>
+                            <div class="card w-80 bg-base-100 shadow-xl rounded-none">
+                                <figure class="bg-gray-700"><img class="h-60" src="./assets/cart1.jpg" alt="Pizza" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                    Stuffed mushrooms
+                                    <div class="badge badge-secondary">NEW</div>
+                                    </h2>
+                                    <p>Delicious stuffed mushrooms with cream cheese — an appetizer with a kick. Always a party favorite when we make them.</p>
+                                    <p>3.66$</p>
+                                    <div class="card-actions justify-end">
+                                    <div class="badge badge-outline">Appetizers</div> 
+                                    <div class="badge badge-outline">Mashroom</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
